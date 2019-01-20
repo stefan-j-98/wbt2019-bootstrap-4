@@ -1,2 +1,2 @@
-# wbt2019-bootstrap-4
+# WBT2019-Bootstrap-4
 Project for Web Technology
