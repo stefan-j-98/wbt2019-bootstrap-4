@@ -1,0 +1,144 @@
+.body {
+    font-family: monospace;
+    color: #222;
+
+    
+}
+.veliki {
+    text-align: center;
+    margin: 0 auto;
+    font-family: monospace;
+    background-color: whitesmoke;
+}
+.navbar{
+    margin: 0;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position: absolute;
+   
+}
+.carousel-caption h1{
+    text-transform: uppercase;
+}
+.carousel-caption h3{
+    text-transform: uppercase;
+}
+
+::selection{
+    color: yellow;
+}
+.card{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.padding{
+    padding: 2rem;
+}
+.jumbotron{
+    background-color: rgb(83, 46, 107,10);
+}
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:rgb(64, 41, 75);
+    height: 1px;
+}
+.fa-code{
+    color: red;
+    font-size: 60px;
+}
+.fa-bold{
+    color:  rgb(83, 46, 107,10);
+    font-size: 60px;
+}
+.fa-css3{
+    color: blue;
+    font-size: 60px;
+}
+
+p{
+    font-size: 16px;
+}
+.navbar{
+    padding: 1.3rem;
+}
+.nav-link{
+    font-size: 18px;
+    display: block;
+    margin-left: 2rem;
+}
+.logo{
+    font-size: 40px;
+}
+.fa-home{
+    font-size: 20px;
+}
+.desno { 
+    text-align: right;
+}
+.levo { 
+    text-align: left;
+}
+footer{
+    background-color:  #212529;
+    color: white;
+}
+.ffa{
+    font-size: 30px;
+}
+footer > hr{
+    background-color: white;
+}
+.btn-outline{
+    border:1px solid white;
+    background-color: transparent;
+}
+.fa-search{
+    color: white;
+}
+.btn-outline:hover{
+    background-color: transparent;
+}
+.pimg1,.pimg2,.pimg3{ /*parallax*/
+    position:relative;
+    opacity:0.8;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+/*
+    fixed = parallax
+    scroll = normal
+*/
+
+    background-attachment:fixed;
+}
+.pimg1{
+    background-image:url('../img/3.png');
+    height: 600px;
+}
+.pimg2{
+    background-image:url('../img/4.jpg');
+    height: 300px;
+}
+.pimg3{
+    background-image:url('../img/6.jpg');
+    height: 500px;
+}
+.ptext{
+    position:absolute;
+    top:40%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
