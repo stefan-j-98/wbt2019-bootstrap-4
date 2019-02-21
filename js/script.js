@@ -44,7 +44,7 @@ function Translate() {
                 _self = this;
                 var xrhFile = new XMLHttpRequest();
                 //ucitaj jezik
-                xrhFile.open("GET", "./resources/"+this.lng+".json", true);
+                xrhFile.open("GET", "../resources/"+this.lng+".json", true);
                 xrhFile.onreadystatechange = function ()
                 {
                     if(xrhFile.readyState === 4)
