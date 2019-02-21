@@ -154,7 +154,7 @@ form button{
 }
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 90%;
     height: 500px;
     perspective: 1000px;
     }
@@ -213,4 +213,38 @@ form button{
       }
       .btn-fb:hover{
         color: #2e745a;
+    }
+    .kartice{
+        margin: 0 auto;
+        align-content: center;
+    }
+    .rezerva{
+        display: none;
+    }
+    @media only screen and (max-width: 760px){
+       
+        .nesto{
+            display: none;
+        }
+        .rezerva{
+            display: block;
+        }
+        .flip-card {
+            background-color: transparent;
+            width: 80%;
+            height: 500px;
+            perspective: 1000px;
+            margin: auto;
+            margin-bottom: 3rem;
+            }
+    }
+    @media only screen and (max-width: 400px){
+        .flip-card {
+            background-color: transparent;
+            width: 100%;
+            height: 500px;
+            perspective: 1000px;
+            margin: auto;
+            margin-bottom: 3rem;
+            }
     }
