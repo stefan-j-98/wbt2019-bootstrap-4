@@ -142,16 +142,7 @@ footer > hr{
 form button{
     height: 30%;
 }
-.ptext{
-    position:absolute;
-    top:40%;
-    width:100%;
-    text-align:center;
-    color:#000;
-    font-size:27px;
-    letter-spacing:8px;
-    text-transform:uppercase;
-}
+
 .flip-card {
     background-color: transparent;
     width: 90%;

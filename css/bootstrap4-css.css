@@ -1,0 +1,31 @@
+.container-fluid{
+text-align: center;
+}
+.text {
+    text-align: justify;
+}
+.pimg3{
+    background-image:url('../img/7.jpg');
+    height: 530px;
+}
+.ptext{
+    position:absolute;
+    top:40%;
+    width:100%;
+    text-align:center;
+    color:whitesmoke;
+    
+    letter-spacing:8px;
+    text-transform:uppercase;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+}
+.ptext:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+ 
+}
+.ptext h1{
+    font-size: 60px;
+}
+
