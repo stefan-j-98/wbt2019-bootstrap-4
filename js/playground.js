@@ -21,7 +21,8 @@ window.onload=function(){
 		};
 	html.onkeyup=fill;
 	css.onkeyup=fill;
-    js.onkeyup=fill;
+	js.onkeyup=fill;
+	$(".navbar").css("background-color", "#212529");
 }
 
 function copyToHtml()

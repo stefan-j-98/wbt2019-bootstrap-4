@@ -11,4 +11,5 @@ $(document).ready(function(){
           
           $(this).removeClass('transition');
       });
+      $(".navbar").css("background-color", "#212529");
   });

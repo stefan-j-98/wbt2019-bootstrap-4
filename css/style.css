@@ -70,7 +70,7 @@ p{
 }
 .navbar{
     padding: 1.2rem;
-    background-color: #262429;
+    background-color: #001836;
     color: white;
 }
 .nav-link{
@@ -208,10 +208,10 @@ form button{
         background: #2e745a;
         width: 0%;
       }
-      .btn-fb{
+      .btn-fb, .btn-fb, .btn-tw, .btn-gplus, .btn-li{
           color: white;
       }
-      .btn-fb:hover{
+      .btn-fb:hover, .btn-fb:hover, .btn-tw:hover, .btn-gplus:hover, .btn-li:hover{
         color: #2e745a;
     }
     .kartice{
@@ -221,6 +221,19 @@ form button{
     .rezerva{
         display: none;
     }
+
+    .underlineEffect > .nav-link:after {    
+        background: none repeat scroll 0 0 transparent;
+        content: "";
+        display: block;
+        height: 1px;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      .underlineEffect > .nav-link:hover:after { 
+        width: 100%;
+      }
     @media only screen and (max-width: 760px){
        
         .nesto{
