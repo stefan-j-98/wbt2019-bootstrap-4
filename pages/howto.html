@@ -85,9 +85,11 @@
                     <div class="col-12">
                         <h3 class="text-justify" data-tag="tutorial-step-1-title"></h3>
                         <p class="text-justify"><span data-tag="tutorial-step-1-text-1"></span> <a
-                                href="https://getbootstrap.com/docs/4.3/getting-started/download/#compiled-css-and-js" id="bs4link" target="_blank">https://getbootstrap.com/docs/4.3/getting-started/download/#compiled-css-and-js</a>
+                                href="https://getbootstrap.com/docs/4.3/getting-started/download/#compiled-css-and-js"
+                                id="bs4link"
+                                target="_blank">https://getbootstrap.com/docs/4.3/getting-started/download/#compiled-css-and-js</a>
                             <span data-tag="tutorial-step-1-text-2"></span></p>
-                        <img class="col-lg-6 img-fluid" src="../img/tut1.png" alt="">
+                        <img class="col-lg-6 img-fluid rounded" src="../img/tut1.png" alt="">
                     </div>
                     <div class="col-12 padding">
                         <h3 class="text-justify" data-tag="tutorial-step-2-title"></h3>
@@ -103,73 +105,211 @@
                         </div>
                         <p class="text-justify" data-tag="tutorial-step-3-text-2"></p>
                         <div class="col-12">
-                                <pre>
+                            <pre>
                                 <code class="html text-left">&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">&#13;&#10;&lt;script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">&lt;/script>&#13;&#10;&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">&lt;/script>&#13;&#10;&lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">&lt;/script></code>
                             </pre>
-                            </div>
+                        </div>
                     </div>
 
                     <hr class="clearfix w-100 ">
-                    <h3 id="title-howto" class="text-left">Kako?</h3>
-                    <p class="offset-md-1 col-md-11 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Autem dolor dolore impedit officia quia! At expedita accusantium earum ipsam, laudantium
-                        ea neque quos, voluptate quidem ex rem magnam excepturi aperiam?</p>
+                    <h3 id="title-howto" class="text-left" data-tag="examples-title"></h3>
                     <br>
+                    <p class="offset-md-1 col-md-11 text-justify" data-tag="examples-text"></p>
                     <div class="code-snippets">
                         <div class="row snippet-row">
+                            <div class="col-12">
+                                <h3 data-tag="example-1-title"></h3>
+                            </div>
                             <div class="col-12 col-md-6">
                                 <pre>
-                            <code class="html">
+                            <code class="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-                            </code>
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h2&gt;HTML Table&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Company&lt;/th&gt;
+    &lt;th&gt;Contact&lt;/th&gt;
+    &lt;th&gt;Country&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Alfreds Futterkiste&lt;/td&gt;
+    &lt;td&gt;Maria Anders&lt;/td&gt;
+    &lt;td&gt;Germany&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Centro comercial Moctezuma&lt;/td&gt;
+    &lt;td&gt;Francisco Chang&lt;/td&gt;
+    &lt;td&gt;Mexico&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ernst Handel&lt;/td&gt;
+    &lt;td&gt;Roland Mendel&lt;/td&gt;
+    &lt;td&gt;Austria&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Island Trading&lt;/td&gt;
+    &lt;td&gt;Helen Bennett&lt;/td&gt;
+    &lt;td&gt;UK&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Laughing Bacchus Winecellars&lt;/td&gt;
+    &lt;td&gt;Yoshi Tannamuri&lt;/td&gt;
+    &lt;td&gt;Canada&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Magazzini Alimentari Riuniti&lt;/td&gt;
+    &lt;td&gt;Giovanni Rovelli&lt;/td&gt;
+    &lt;td&gt;Italy&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
                         </pre>
-                                <img src="../img/boot.jpeg" alt="" class="img-fluid">
+                                <img src="../img/table-nobs4.png" alt="" class="img-fluid rounded">
                             </div>
                             <div class="col-12 col-md-6">
                                 <pre>
-                                <code class="html">
-    
-                                </code>
+                                <code class="html">&lt;table class=&quot;table table-dark table-hover&quot;&gt;&#13;&#10;   &lt;thead&gt;&#13;&#10;     &lt;tr&gt;&#13;&#10;        &lt;th&gt;Firstname&lt;/th&gt;&#13;&#10;        &lt;th&gt;Lastname&lt;/th&gt;&#13;&#10;        &lt;th&gt;Email&lt;/th&gt;&#13;&#10;     &lt;/tr&gt;&#13;&#10;   &lt;/thead&gt;&#13;&#10;    &lt;tbody&gt;&#13;&#10;     &lt;tr&gt;&#13;&#10;        &lt;td&gt;John&lt;/td&gt;&#13;&#10;        &lt;td&gt;Doe&lt;/td&gt;&#13;&#10;        &lt;td&gt;john@example.com&lt;/td&gt;&#13;&#10;     &lt;/tr&gt;&#13;&#10;     &lt;tr&gt;&#13;&#10;        &lt;td&gt;Mary&lt;/td&gt;&#13;&#10;        &lt;td&gt;Moe&lt;/td&gt;&#13;&#10;        &lt;td&gt;mary@example.com&lt;/td&gt;&#13;&#10;     &lt;/tr&gt;&#13;&#10;     &lt;tr&gt;&#13;&#10;        &lt;td&gt;July&lt;/td&gt;&#13;&#10;        &lt;td&gt;Dooley&lt;/td&gt;&#13;&#10;        &lt;td&gt;july@example.com&lt;/td&gt;&#13;&#10;     &lt;/tr&gt;&#13;&#10;    &lt;/tbody&gt;</code>
                             </pre>
-                                <img src="../img/boot.jpeg" alt="" class="img-fluid">
+                                <img src="../img/table.png" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         <hr class="clearfix w-100 ">
                         <div class="row snippet-row">
-                            <div class="col-12 col-md-6">
-                                <pre>
-                                <code class="html">
-    
-                                </code>
-                            </pre>
-                                <img src="../img/boot.jpeg" alt="" class="img-fluid">
+                            <div class="col-12">
+                                <h3 data-tag="example-2-title"></h3>
                             </div>
                             <div class="col-12 col-md-6">
                                 <pre>
-                                    <code class="html">
-        
-                                    </code>
+                                <code class="html">&lt;style&gt;
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+                                        
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+                                        
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+&lt;/style&gt;
+                                        
+&lt;div class=&quot;dropdown&quot;&gt;
+  &lt;span&gt;Mouse over me&lt;/span&gt;
+  &lt;div class=&quot;dropdown-content&quot;&gt;
+    &lt;p&gt;Hello World!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code>
+                            </pre>
+                                <img src="../img/drop.png" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <pre>
+                                    <code class="html">&lt;div class=&quot;dropdown&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+    Dropdown button
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Link 1&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Link 2&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Link 3&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code>
                                 </pre>
-                                <img src="../img/boot.jpeg" alt="" class="img-fluid">
+                                <img src="../img/drop-bs4.png" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         <hr class="clearfix w-100 ">
                         <div class="row snippet-row">
-                            <div class="col-12 col-md-6">
-                                <pre>
-                                    <code class="html">
-        
-                                    </code>
-                                </pre>
-                                <img src="../img/boot.jpeg" alt="" class="img-fluid">
+                            <div class="col-12">
+                                <h3 data-tag="example-3-title"></h3>
                             </div>
                             <div class="col-12 col-md-6">
                                 <pre>
-                                        <code class="html">
-            
-                                        </code>
+                                    <code class="html">&lt;style>
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+ }
+ 
+ li {
+   float: left;
+ }
+
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ li a:hover {
+   background-color: #111;
+ }
+&lt/style>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a class=&quot;active&quot; href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</code>
+                                </pre>
+                                <img src="../img/nav.png" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <pre>
+                                        <code class="html">&lt;ul class=&quot;nav&quot;&gt;
+  &lt;li class=&quot;nav-item&quot;&gt;
+    &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;nav-item&quot;&gt;
+    &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;nav-item&quot;&gt;
+    &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;nav-item&quot;&gt;
+    &lt;a class=&quot;nav-link disabled&quot; href=&quot;#&quot;&gt;Disabled&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code>
                                     </pre>
-                                <img src="../img/boot.jpeg" alt="" class="img-fluid">
+                                <img src="../img/nav-bs4.png" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                     </div>

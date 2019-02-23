@@ -211,9 +211,6 @@ form button{
         margin: 0 auto;
         align-content: center;
     }
-    .rezerva{
-        display: none;
-    }
 
     .underlineEffect > .nav-link:after {    
         background: none repeat scroll 0 0 transparent;
@@ -257,13 +254,6 @@ form button{
         color: #333335;
     }
     @media only screen and (max-width: 768px){
-       
-        .nesto{
-            display: none;
-        }
-        .rezerva{
-            display: block;
-        }
         .flip-card {
             background-color: transparent;
             width: 80%;
