@@ -247,6 +247,15 @@ form button{
         margin-top: 50px;
         margin-bottom: 50px;
       }
+      #bs4link{
+          color: #2e745a;
+      }
+      #bs4link:hover{
+        color: #262429;
+    }
+    #bs4link:visited{
+        color: #333335;
+    }
     @media only screen and (max-width: 768px){
        
         .nesto{
