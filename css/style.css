@@ -245,7 +245,7 @@ form button{
             display: flex;
             flex-direction: column-reverse;
         }
-        .btn-primary{
+        .btn-dark{
             display: none;
         }
 
