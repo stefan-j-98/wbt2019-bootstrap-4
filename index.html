@@ -78,7 +78,8 @@
                     <img class="mw-100" src="img/1.jpg" alt="Los Angeles">
                     <div class="carousel-caption">
                         <h1 data-tag="title-1"></h1>
-                        <h3>WEB PROJEKAT</h3>
+                        <h3 data-tag="title-2"></h3>
+                        <h4 data-tag="title-3"></h4>
                     </div>
                 </div>
                 <div id="second-slide" class="carousel-item">
@@ -102,14 +103,14 @@
         <div class="container-fluid padding">
             <div class="row welcome text-center padding">
                 <div class="col-12">
-                    <h1 class="display-4">WELCOME</h1>
+                    <h1 class="display-4" data-tag="welcome-title"></h1>
                     <hr class="my-4 offset-md-3 col-md-6">
                 </div>
-                <div class="col-12 col-sm-12 offset-md-3 col-md-6  col-lg-6 text-center">
-                    <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil voluptatibus
-                        ipsum aut ad possimus in nulla odit, cupiditate autem, exercitationem quisquam! In provident
-                        veniam odio at nulla, necessitatibus doloremque sapiente odit nisi aperiam consequuntur, fuga
-                        cum, consectetur iste! Doloribus, soluta.</p>
+                <div class="col-12 col-sm-12 offset-md-3 col-md-6  col-lg-6 text-justify">
+                    <p class="" data-tag="welcome-text-1"></p>
+                    <p data-tag="welcome-text-2"></p>
+                    <p data-tag="welcome-text-3"></p>
+                    <p data-tag="welcome-text-4"></p>
                 </div>
             </div>
         </div>
@@ -118,18 +119,18 @@
             <div class="row text-center">
                 <div class="col-12 col-sm-6 col-md-4">
                     <i class="fas fa-code   padding"></i>
-                    <h3>HTML</h3>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, suscipit.</P>
+                    <h3 data-tag="html-title"></h3>
+                    <P data-tag="html-text"></P>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
                     <i class="fab fa-js-square  padding"></i>
-                    <h3>JavaScript</h3>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, suscipit.</P>
+                    <h3 data-tag="js-title"></h3>
+                    <P data-tag="js-text"></P>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4">
                     <i class="fab fa-css3 padding"></i>
-                    <h3>CSS3</h3>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, suscipit.</P>
+                    <h3 data-tag="css-title"></h3>
+                    <P data-tag="css-text"></P>
                 </div>
             </div>
         </div>
@@ -140,28 +141,27 @@
         </div>
 
         <section>
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 padding">
+                        <h1 data-tag="other-tech-title"></h1>
+                        <p data-tag="other-tech-text"></p>
+                    </div>
+                </div>
+            </div>
             <div class="container-fluid padding">
                 <div class="row  padding">
                     <div class=" col-lg-6 ">
-                        <h1 class="padding">Lorem ipsum dolor</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum itaque aliquid
-                            dignissimos architecto iusto necessitatibus unde nobis nisi cupiditate doloremque pariatur
-                            possimus ea eum vero consequuntur ex provident, accusamus odio, accusantium ducimus
-                            similique
-                            maxime quo non. Eveniet iure possimus voluptatibus quibusdam. </p>
-
-
-
-
+                        <h1 class="padding" data-tag="vs-title"></h1>
+                        <p data-tag="vs-text" class="text-justify"></p>
                         <br>
                         <div class="levo">
-                            <a class="btn btn-primary " href="https://www.google.com/" role="button"
-                                target="_blank">Link</a>
+                            <a class="btn btn-dark" href="https://code.visualstudio.com" role="button"
+                                target="_blank" data-tag="vs-button-text"></a>
                         </div>
                     </div>
                     <div class=" col-lg-6 ">
-                        <img src="img/boot.jpeg" alt="" class="img-fluid">
+                        <img src="./img/vs.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -169,20 +169,15 @@
             <div class="container-fluid padding">
                 <div class="row  padding">
                     <div class=" col-lg-6 ">
-                        <img src="img/boot.jpeg" alt="" class="img-fluid">
+                        <img src="./img/git.png" alt="" class="img-fluid">
                     </div>
                     <div class=" col-lg-6">
-                        <h1 class="padding">Lorem ipsum dolor</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum itaque aliquid
-                            dignissimos architecto iusto necessitatibus unde nobis nisi cupiditate doloremque pariatur
-                            possimus ea eum vero consequuntur ex provident, accusamus odio, accusantium ducimus
-                            similique
-                            maxime quo non. Eveniet iure possimus voluptatibus quibusdam. </p>
-
+                        <h1 class="padding" data-tag="git-title"></h1>
+                        <p data-tag="git-text" class="text-justify"></p>
                         <br>
                         <div class="desno">
-                            <a class="btn btn-primary " href="https://www.google.com/" role="button"
-                                target="_blank">Link</a>
+                            <a class="btn btn-dark " href="https://github.com" role="button"
+                                target="_blank" data-tag="git-button-text"></a>
                         </div>
                     </div>
 
@@ -284,10 +279,8 @@
                         <div class="col-md-6 mx-auto">
 
                             <!-- Content -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-                            <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur
-                                adipisicing elit.</p>
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" data-tag="footer-title"></h5>
+                            <p data-tag="footer-text" class="text-justify"></p>
 
                         </div>
                         <!-- Grid column -->
@@ -344,8 +337,7 @@
 
 
                 <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">© 2019 Copyright: METRoTEAM
-                </div>
+                <div class="footer-copyright text-center py-3" data-tag="copyright-text"></div>
                 <!-- Copyright -->
 
             </footer>
