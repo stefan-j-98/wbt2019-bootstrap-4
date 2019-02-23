@@ -23,10 +23,34 @@ window.onload=function(){
 	css.onkeyup=fill;
 	js.onkeyup=fill;
 	$(".navbar").css("background-color", "#212529");
+	$(document).on("keyup", "#html", function () {
+		$("#html").each(function (i, block) {
+			hljs.configure({
+				language: "html"
+			  })
+		});
+		$("#css").each(function (i, block) {
+			hljs.configure({
+				language: "css"
+			  })
+			highlightBlock(block);
+		});
+		$("#js").each(function (i, block) {
+			hljs.configure({
+				language: "javascript"
+			  })
+		});
+	});
 }
 
 function copyToHtml()
 {
     var text = $(".copyButton").val();
-    $("#html").text(text);
+    $("#html code").text(text);
+}
+
+function highlightBlock(el) {
+	let savedSel = rangy.saveSelection();
+	hljs.highlightBlock(el);
+	rangy.restoreSelection(savedSel);
 }
