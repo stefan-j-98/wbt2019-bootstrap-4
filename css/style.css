@@ -227,6 +227,26 @@ form button{
       .underlineEffect > .nav-link:hover:after { 
         width: 100%;
       }
+      #title-howto{
+        margin-top: 50px;
+        font-size: 50px;
+      }
+      .code-snippets{
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .snippet-row{
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .bs4-users{
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .users-img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
     @media only screen and (max-width: 768px){
        
         .nesto{
