@@ -54,17 +54,19 @@ hr{
 }
 .fa-code{
     color: rgb(219, 50, 50);
+    border-color: rgb(219, 50, 50)!important;
     font-size: 60px;
 }
 .fa-js-square{
     color:  rgb(239, 199, 37);
+    border-color:rgb(239, 199, 37)!important;
     font-size: 60px;
 }
 .fa-css3{
     color: rgb(89, 89, 233);
+    border-color:rgb(89, 89, 233)!important;
     font-size: 60px;
 }
-
 p{
     font-size: 16px;
 }
