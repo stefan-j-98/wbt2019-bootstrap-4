@@ -225,7 +225,7 @@ form button{
       .underlineEffect > .nav-link:hover:after { 
         width: 100%;
       }
-    @media only screen and (max-width: 760px){
+    @media only screen and (max-width: 768px){
        
         .nesto{
             display: none;
@@ -241,6 +241,14 @@ form button{
             margin: auto;
             margin-bottom: 3rem;
             }
+        .flex{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .btn-primary{
+            display: none;
+        }
+
     }
     @media only screen and (max-width: 400px){
         .flip-card {
