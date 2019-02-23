@@ -253,7 +253,10 @@ form button{
     #bs4link:visited{
         color: #333335;
     }
-    @media only screen and (max-width: 768px){
+    .Plinija{
+        width:60%;
+    }
+    @media only screen and (max-width: 992px){
         .flip-card {
             background-color: transparent;
             width: 80%;
@@ -268,6 +271,9 @@ form button{
         }
         .btn-dark{
             display: none;
+        }
+        .timh1{
+            font-size: 40px;
         }
 
     }
