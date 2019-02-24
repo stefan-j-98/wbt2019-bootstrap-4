@@ -60,3 +60,10 @@ function highlightBlock(el) {
 	hljs.highlightBlock(el);
 	rangy.restoreSelection(savedSel);
 }
+
+addEventListener('load', () => {
+  const code = document.querySelector('#html');
+  const worker = new Worker('../js/worker.js');
+  worker.onmessage = (event) => { code.innerHTML = event.data; }
+  worker.postMessage(code.textContent);
+});
