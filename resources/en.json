@@ -77,5 +77,7 @@
     "footer-title": "About project",
     "footer-text": "This site is created as a project assigment for Web technologies course on Faculty of technical sciences in Čačak, as a mean of completing the final exam. Students that have taken part in this project are Stefan Jovanović, Predrag Radovanović, and Slavko Džulović.",
     "copyright-text": "© 2019 Copyright: METRoTEAM",
-    "download-text": "Download"
+    "download-text": "Download",
+    "playground-html-text": "Write code here or copy template from above",
+    "playground-js-text": "Try to write JS"
 }

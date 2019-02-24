@@ -96,6 +96,8 @@
         "example-1-title": "Табела са тамном позадином и hover ефектом",
         "example-2-title": "Падајући мени",
         "example-3-title": "Навигациони мени",
-        "download-text": "Преузми"
+        "download-text": "Преузми",
+        "playground-html-text": "Пиши ХТМЛ код овде или копирај одозго",
+        "playground-js-text": "Опробај се у ЈС"
 
 }
