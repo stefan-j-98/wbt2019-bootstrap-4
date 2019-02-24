@@ -297,6 +297,9 @@ form button{
         .naslov{
             font-size: 40px;
         }
+        .flipime{
+            font-size: 35px;
+        }
 
     }
     @media only screen and (max-width: 400px){
