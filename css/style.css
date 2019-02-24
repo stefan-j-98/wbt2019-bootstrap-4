@@ -1,8 +1,6 @@
 .body {
     font-family: Roboto,sans-serif;
     color: #222;
-
-    
 }
 .veliki {
     text-align: center;
@@ -251,7 +249,7 @@ form button{
         color: #262429;
     }
     #bs4link:visited{
-        color: #333335;
+        color: #5050c0;
     }
     .Plinija{
         width:60%;
@@ -321,7 +319,7 @@ form button{
             height: 100%;
             width: 100%;
         }
-
+        
     }
     @media only screen and (max-width: 400px){
         .flip-card {

@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <script src="./js/gotopbtn.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 </head>
 
 <body>
@@ -162,7 +164,7 @@
                         </div>
                     </div>
                     <div class=" col-lg-6 ">
-                        <img src="./img/vs.png" alt="" class="img-fluid rounded">
+                            <a href="./img/vs.png" data-toggle="lightbox"><img src="./img/vs.png" alt="" class="img-fluid rounded"></a>
                     </div>
                 </div>
             </div>
@@ -170,7 +172,7 @@
             <div class="container-fluid padding">
                 <div class="row  flex">
                     <div class=" col-lg-6 ">
-                        <img src="./img/git.png" alt="" class="img-fluid rounded">
+                            <a href="./img/git.png" data-toggle="lightbox"><img src="./img/git.png" alt="" class="img-fluid rounded"></a>
                     </div>
                     <div class=" col-lg-6">
                         <h1 class="padding" data-tag="git-title"></h1>
@@ -371,7 +373,13 @@
         </section>
 
     </div>
-
+    <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                    event.preventDefault();
+                    $(this).ekkoLightbox({
+                    });
+                });
+            </script>
 </body>
 
 </html>
