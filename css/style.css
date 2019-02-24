@@ -317,6 +317,10 @@ form button{
         .flipime{
             font-size: 35px;
         }
+         #doughnutChart{
+            height: 100%;
+            width: 100%;
+        }
 
     }
     @media only screen and (max-width: 400px){
@@ -328,4 +332,8 @@ form button{
             margin: auto;
             margin-bottom: 3rem;
             }
+        #doughnutChart{
+            height: 100%;
+            width: 100%;
+        }
     }

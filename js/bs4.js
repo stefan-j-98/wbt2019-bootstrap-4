@@ -19,7 +19,8 @@ window.onload=function(){
       }]
     },
     options: {
-      responsive: true
+      responsive: true,
+      maintainAspectRatio: true
     }
   });
 };
