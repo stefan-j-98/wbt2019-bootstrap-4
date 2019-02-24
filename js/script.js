@@ -16,8 +16,14 @@ $(document).ready(function () {
     translate.init(attributeName, currentLng);
     translate.process();
     $(".dropdown-menu .dropdown-item").click(function () {
-        if ($(this).text() == "Српски" || $(this).text() == "Serbian") {
+        if ($(this).text() == "Српски (ћирилица)" || $(this).text() == "Serbian (cyrillic)" || $(this).text() == "Srpski (ćirilica)") {
             currentLng = "rs";
+            translate.init(attributeName, currentLng);
+            translate.process();
+            localStorage.setItem("lang", currentLng);
+        }
+        else if ($(this).text() == "Српски (латиница)" || $(this).text() == "Serbian (latin)" || $(this).text() == "Srpski (latinica)") {
+            currentLng = "rs-lat";
             translate.init(attributeName, currentLng);
             translate.process();
             localStorage.setItem("lang", currentLng);
