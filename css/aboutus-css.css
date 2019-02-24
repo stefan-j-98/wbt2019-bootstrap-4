@@ -7,7 +7,7 @@
 .linija{
     width: 100%;
 }
-.fas,.fa-file{
+.fa-palette,.fa-file,.fa-users{
     padding: 20px;
     text-align:center;
     position: relative;
