@@ -85,7 +85,7 @@
         "tutorial-title": "Упутство како користити Бутстреп",
         "tutorial-step-1-title": "Корак 1",
         "tutorial-step-1-text-1": "Посетите",
-        "tutorial-step-1-text-2": " и кликните на Download дугме",
+        "tutorial-step-1-text-2": " и кликните на Download дугме.",
         "tutorial-step-2-title": "Корак 2",
         "tutorial-step-2-text-1": "Отпакујте садржину .zip фајла који сте преузели и уврстите добијени фолдер у свој пројекат.",
         "tutorial-step-3-title": "Корак 3",
@@ -98,6 +98,9 @@
         "example-3-title": "Навигациони мени",
         "download-text": "Преузми",
         "playground-html-text": "Пиши ХТМЛ код овде или копирај одозго",
-        "playground-js-text": "Опробај се у ЈС"
+        "playground-js-text": "Опробај се у ЈС",
+        "templates-text": "Овде можете видети и преузети неке готове Бутстреп шаблоне за коришћење.",
+        "bs4-playground-title-1": "Бутстреп 4 заглавље",
+        "bs4-playground-button-1": "Кликните овде да бисте копирали кôд!"
 
 }

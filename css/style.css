@@ -275,6 +275,23 @@ form button{
       #topBtn:hover{
         opacity: 1;
       }
+      .breadcrumb{
+          background-color: rgb(33, 37, 41)!important;
+      }
+      .breadcrumb a{
+        color: #2e745a;
+      }
+      .breadcrumb a:hover{
+        color: #409c7a;
+      }
+      .breadcrumb a:visited{
+        color: #555557;
+      }
+
+      .breadcrumb .active
+      {
+          text-decoration: underline;
+      }
     @media only screen and (max-width: 992px){
         .flip-card {
             background-color: transparent;
