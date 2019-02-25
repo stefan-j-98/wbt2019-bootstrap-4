@@ -1,0 +1,97 @@
+.container-fluid{
+text-align: center;
+}
+.text {
+    text-align: justify;
+}
+.pimg3{
+    background-image:url('../img/7.png');
+    height: 530px;
+}
+.ptext{
+    position:absolute;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:whitesmoke;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    padding: 10px;
+}
+.anime{
+    font-size: 60px;
+    animation: text 3s 1;
+    position: relative;
+    background: black;
+    display: block;
+}
+.anime2{
+    display: block;
+    color: #2e745a;
+}
+
+@keyframes text {
+ 0%{
+     color: black;
+     margin-bottom: -40px;
+
+ }
+ 30%{
+     letter-spacing: 25px;
+     margin-bottom: -40px;
+ }
+ 85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+ }
+
+}
+@media only screen and (max-width: 768px){
+    .anime{
+        font-size: 40px;
+    }
+    .anime2{
+        font-size: 30px;
+    }
+    @keyframes text {
+        0%{
+            color: black;
+            margin-bottom: -40px;
+       
+        }
+        30%{
+            letter-spacing: 15px;
+            margin-bottom: -40px;
+        }
+        85%{
+           letter-spacing: 8px;
+           margin-bottom: -40px;
+        }
+       
+       }
+}
+@media only screen and (max-width: 400px){
+    .anime{
+        font-size: 40px;
+    }
+    .anime2{
+        font-size: 22px;
+    }
+    @keyframes text {
+        0%{
+            color: black;
+            margin-bottom: -50px;
+       
+        }
+        30%{
+            letter-spacing: 10px;
+            margin-bottom: -50px;
+        }
+        85%{
+           letter-spacing: 8px;
+           margin-bottom: -50px;
+        }
+       
+       }
+}
+

@@ -1,0 +1,340 @@
+.body {
+    font-family: Roboto,sans-serif;
+    color: #222;
+}
+.veliki {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Roboto,sans-serif;
+    background-color: whitesmoke;
+}
+.navbar{
+    margin: 0;
+}
+.carousel-inner{
+    max-width: 100%;
+}
+.carousel-inner{
+    max-width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+   
+}
+.carousel-caption h1{
+    text-transform: uppercase;
+}
+.carousel-caption h3{
+    text-transform: uppercase;
+}
+
+::selection{
+    color: #2e745a;
+}
+.card{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.padding{
+    padding: 2rem;
+}
+.jumbotron{
+    background-color: rgb(83, 46, 107,10);
+}
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:rgb(64, 41, 75);
+    height: 1px;
+}
+.fa-code{
+    color: rgb(219, 50, 50);
+    border-color: rgb(219, 50, 50)!important;
+    font-size: 60px;
+}
+.fa-js-square{
+    color:  rgb(239, 199, 37);
+    border-color:rgb(239, 199, 37)!important;
+    font-size: 60px;
+}
+.fa-css3{
+    color: rgb(89, 89, 233);
+    border-color:rgb(89, 89, 233)!important;
+    font-size: 60px;
+}
+p{
+    font-size: 16px;
+}
+.navbar{
+    padding: 1.2rem;
+    background-color: #001836;
+    color: white;
+}
+.nav-link{
+    font-size: 18px;
+    display: block;
+    margin-left: 2rem;
+}
+.logo{
+    font-size: 40px;
+}
+.fa-home{
+    font-size: 20px;
+}
+.desno { 
+    text-align: right;
+}
+.levo { 
+    text-align: left;
+}
+footer{
+    background-color:  #212529;
+    color: white;
+}
+.ffa{
+    font-size: 30px;
+}
+footer > hr{
+    background-color: white;
+}
+.btn-outline{
+    border:1px solid white;
+    background-color: transparent;
+}
+.fa-search{
+    color: white;
+}
+.btn-outline:hover{
+    background-color: transparent;
+}
+.pimg1,.pimg2,.pimg3{ /*parallax*/
+    position:relative;
+    opacity:0.8;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+/*
+    fixed = parallax
+    scroll = normal
+*/
+
+    background-attachment:fixed;
+}
+.pimg1{
+    background-image:url('../img/3.png');
+    height: 300px;
+}
+.pimg2{
+    background-image:url('../img/4.jpg');
+    height: 300px;
+}
+.pimg3{
+    background-image:url('../img/6.jpg');
+    height: 500px;
+}
+.form-control{
+    height: 30%;
+}
+form button{
+    height: 30%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 90%;
+    height: 500px;
+    perspective: 1000px;
+    }
+
+    .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+    background-color: #262429;
+    color: white;
+    z-index: 2;
+    }
+
+    .flip-card-back {
+    background-color: #262429;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+    } 
+    .FCP{
+    font-size: 20px;
+    }
+
+    .progress-container {
+        width: 100%;
+        height: 4px;
+        position: fixed;
+        z-index: 1;
+      }
+      
+      .progress-bar {
+        height: 4px;
+        background: #2e745a;
+        width: 0%;
+      }
+      .btn-fb, .btn-fb, .btn-tw, .btn-gplus, .btn-li{
+          color: white;
+      }
+      .btn-fb:hover, .btn-fb:hover, .btn-tw:hover, .btn-gplus:hover, .btn-li:hover{
+        color: #2e745a;
+    }
+    .kartice{
+        margin: 0 auto;
+        align-content: center;
+    }
+
+    .underlineEffect > .nav-link:after {    
+        background: none repeat scroll 0 0 transparent;
+        content: "";
+        display: block;
+        height: 1px;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      .underlineEffect > .nav-link:hover:after { 
+        width: 100%;
+      }
+      #title-howto{
+        margin-top: 50px;
+        font-size: 50px;
+      }
+      .code-snippets{
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .snippet-row{
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .bs4-users{
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .users-img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      #bs4link{
+          color: #2e745a;
+      }
+      #bs4link:hover{
+        color: #262429;
+    }
+    #bs4link:visited{
+        color: #5050c0;
+    }
+    .Plinija{
+        width:60%;
+    }
+  
+    #topBtn{
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        background:  #2e745a;
+        color: white;
+        border: none;
+        cursor: pointer;
+        display: none;
+        border-radius: 10px;
+        opacity: 0.8;
+      }
+      #topBtn:hover{
+        opacity: 1;
+      }
+      .breadcrumb{
+          background-color: rgb(33, 37, 41)!important;
+      }
+      .breadcrumb a{
+        color: #2e745a;
+      }
+      .breadcrumb a:hover{
+        color: #409c7a;
+      }
+      .breadcrumb a:visited{
+        color: #555557;
+      }
+
+      .breadcrumb .active
+      {
+          text-decoration: underline;
+      }
+    @media only screen and (max-width: 992px){
+        .flip-card {
+            background-color: transparent;
+            width: 100%;
+            height: 500px;
+            perspective: 1000px;
+            margin: auto;
+            margin-bottom: 3rem;
+            }
+        .flex{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .btn-dark{
+            display: none;
+        }
+        .timh1{
+            font-size: 40px;
+        }
+        .naslov{
+            font-size: 40px;
+        }
+        .flipime{
+            font-size: 35px;
+        }
+         #doughnutChart{
+            height: 100%;
+            width: 100%;
+        }
+        .navbar-collapse{
+            text-align: center;
+        }
+        
+    }
+    @media only screen and (max-width: 400px){
+        .flip-card {
+            background-color: transparent;
+            width: 100%;
+            height: 500px;
+            perspective: 1000px;
+            margin: auto;
+            margin-bottom: 3rem;
+            }
+        #doughnutChart{
+            height: 100%;
+            width: 100%;
+        }
+    }

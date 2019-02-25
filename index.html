@@ -4,13 +4,389 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <meta name="author" content="Stefan Jovanovic">
+    <meta name="author" content="Predrag Radovanovic">
+    <meta name="author" content="Slavko Dzulovic">
+    <meta name="description" content="This site was created as a project assignment for the Web technologies course on the Faculty of technical sciences in Čačak.">
+    <meta name="robots" content="index, follow" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@getbootstrap" />
+    <meta name="twitter:creator" content="@getbootstrap" />
+    <meta property="og:url" content="https://twitter.com/getbootstrap?lang=en" />
+    <meta property="og:title" content="Bootstrap Twitter" />
+    <meta property="og:description" content="Bootstrap Twitter timeline with all Bootstrap news!" />
+    <title data-tag="index-page-title"></title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="./img/favicon-32x32.png" />
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script src="./js/gotopbtn.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 </head>
+
 <body>
-    
+    <div class="veliki">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <a class="navbar-brand" data-tag="title" href="./index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active underlineEffect">
+                        <a class="nav-link" href="./index.html" data-tag="menu-1" rel="canonical"> <i class="fas fa-home"></i><span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item underlineEffect">
+                        <a class="nav-link" href="../pages/bootstrap4.html" data-tag="menu-2" rel="canonical"></a>
+                    </li>
+                    <li class="nav-item underlineEffect">
+                        <a class="nav-link" href="../pages/howto.html" data-tag="menu-4" rel="canonical"></a>
+                    </li>
+                    <li class="nav-item underlineEffect">
+                        <a class="nav-link" href="./pages/playground.html" data-tag="menu-5" rel="canonical"></a>
+                    </li>
+                    <li class="nav-item underlineEffect">
+                        <a class="nav-link" href="./pages/templates.html" data-tag="menu-6" rel="canonical"></a>
+                    </li>
+                    <li class="nav-item underlineEffect">
+                        <a class="nav-link" href="../pages/aboutus.html" data-tag="menu-7" rel="canonical"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-tag="lang" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#" data-tag="lang-1"></a>
+                            <a class="dropdown-item" href="#" data-tag="lang-3"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" data-tag="lang-2"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="scrollBar"></div>
+        </div>
+        <!-- Sekcija jedan -->
+        <div id="demo" class="carousel slide " data-ride="carousel" data-interval="false">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active first"></li>
+                <li data-target="#demo" data-slide-to="1" class="second"></li>
+                <li data-target="#demo" data-slide-to="2" class="third"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div id="first-slide" class="carousel-item active">
+                    <img class="mw-100" src="img/1.jpg" alt="Firewatch Background 1">
+                    <div class="carousel-caption">
+                        <h1 data-tag="title-1"></h1>
+                        <h3 data-tag="title-2"></h3>
+                        <h4 data-tag="title-3"></h4>
+                    </div>
+                </div>
+                <div id="second-slide" class="carousel-item">
+                    <img class="mw-100" src="img/2.jpg" alt="Firewatch Background 2">
+                    <div class="carousel-caption">
+                        <h1></h1>
+                        <h3></h3>
+                    </div>
+                </div>
+                <div id="third-slide" class="carousel-item">
+                    <img class="mw-100" src="img/5.jpg" alt="Firewatch Background 3">
+                    <div class="carousel-caption">
+                        <h1></h1>
+                        <h3></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sekcija dva -->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center padding">
+                <div class="col-12">
+                    <h1 class="display-4 naslov" data-tag="welcome-title"></h1>
+
+                    <hr class="Plinija">
+                </div>
+                <div class="col-12 col-sm-12 offset-md-3 col-md-6  col-lg-6 text-justify">
+                    <p class="" data-tag="welcome-text-1"></p>
+                    <p data-tag="welcome-text-2"></p>
+                    <p data-tag="welcome-text-3"></p>
+                    <p data-tag="welcome-text-4"></p>
+                </div>
+            </div>
+        </div>
+        <!-- Sekcija 3 -->
+        <div class="container-fluid padding ">
+            <div class="row text-center">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code  padding border  rounded-circle"></i>
+                    <h3 data-tag="html-title"></h3>
+                    <P data-tag="html-text"></P>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <i class="fab fa-css3 padding border rounded-circle"></i>
+                    <h3 data-tag="css-title"></h3>
+                    <P data-tag="css-text"></P>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <i class="fab fa-js-square  padding border rounded-circle"></i>
+                    <h3 data-tag="js-title"></h3>
+                    <P data-tag="js-text"></P>
+                </div>
+            </div>
+        </div>
+
+        <div class="pimg2">
+            <div class="ptext">
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 padding">
+                        <h1 data-tag="other-tech-title"></h1>
+                        <p data-tag="other-tech-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid padding">
+                <div class="row  ">
+                    <div class=" col-lg-6 ">
+                        <h1 class="padding" data-tag="vs-title"></h1>
+                        <p data-tag="vs-text" class="text-justify"></p>
+                        <br>
+                        <div class="levo">
+                            <a class="btn btn-dark" href="https://code.visualstudio.com" role="button" target="_blank"
+                                data-tag="vs-button-text"></a>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6 ">
+                            <a href="./img/vs.png" data-toggle="lightbox"><img src="./img/vs.png" alt="" class="img-fluid rounded"></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid padding">
+                <div class="row  flex">
+                    <div class=" col-lg-6 ">
+                            <a href="./img/git.png" data-toggle="lightbox"><img src="./img/git.png" alt="" class="img-fluid rounded"></a>
+                    </div>
+                    <div class=" col-lg-6">
+                        <h1 class="padding" data-tag="git-title"></h1>
+                        <p data-tag="git-text" class="text-justify"></p>
+                        <br>
+                        <div class="desno">
+                            <a class="btn btn-dark " href="https://github.com" role="button" target="_blank"
+                                data-tag="git-button-text"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <div class="pimg1"> </div>
+        <!-- Sekcija 5 -->
+        <div class="container-fluid kartice">
+            <div class="row text-center padding kartice">
+                <div class="col-12 padding">
+                    <h1 class="display-4 timh1" data-tag="meet-team"></h1>
+                    <hr class="Plinija">
+                    <hr class="rezerva">
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/pr.jpg" alt="Avatar" width="100%" height="400px">
+                                <p class="padding FCP"><i class="fas fa-palette"></i> <span data-tag="member-2"></span>
+                                </p>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipime" data-tag="member-2"></h1>
+                                <div class="col-12">
+                                    <p class="text-left" data-tag="pr-birth-date"></p>
+                                    <p class="text-left" data-tag="pr-birth-place"></p>
+                                    <p class="text-left" data-tag="pr-index-num"></p>
+                                    <p class="text-left" data-tag="pr-high-school"></p>
+                                    <p class="text-left" data-tag="pr-faculty"></p>
+                                    <p class="text-left" data-tag="pr-dir"></p>
+                                    <p class="text-left" data-tag="pr-gpa"></p>
+                                </div>
+                                <a class="btn-floating btn-fb mx-1 " href="https://www.facebook.com/PedjavoliGagu" target="_blank">
+                                    <i class="fab fa-facebook-f ffa"> </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/sj.jpg" alt="Avatar" width="100%" height="400px">
+                                <p class="padding FCP"><i class="fas fa-users"></i><span data-tag="member-1"></span></p>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipime" data-tag="member-1"></h1>
+                                <div class="col-12">
+                                        <p class="text-left" data-tag="sj-birth-date"></p>
+                                        <p class="text-left" data-tag="sj-birth-place"></p>
+                                        <p class="text-left" data-tag="sj-index-num"></p>
+                                        <p class="text-left" data-tag="sj-high-school"></p>
+                                        <p class="text-left" data-tag="sj-faculty"></p>
+                                        <p class="text-left" data-tag="sj-dir"></p>
+                                        <p class="text-left" data-tag="sj-gpa"></p>
+                                    </div>
+                                <a class="btn-floating btn-fb mx-1 " href="https://www.facebook.com/stefan.jovanovic.5851" target="_blank">
+                                    <i class="fab fa-facebook-f ffa"> </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/sdz.jpg" alt="Avatar" width="100%" height="400px">
+                                <p class="padding FCP"><i class="fa fa-file"></i><span data-tag="member-3"></span></p>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipime" data-tag="member-3"></h1>
+                                <div class="col-12">
+                                        <p class="text-left" data-tag="sdz-birth-date"></p>
+                                        <p class="text-left" data-tag="sdz-birth-place"></p>
+                                        <p class="text-left" data-tag="sdz-index-num"></p>
+                                        <p class="text-left" data-tag="sdz-high-school"></p>
+                                        <p class="text-left" data-tag="sdz-faculty"></p>
+                                        <p class="text-left" data-tag="sdz-dir"></p>
+                                        <p class="text-left" data-tag="sdz-gpa"></p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="topBtn"data-toggle="tooltip" data-placement="top" title="Back to top"><i class="fas fa-arrow-up" ></i></button>
+        <!-- Footer sekcija-->
+        <section>
+            <!-- Footer -->
+            <footer class="page-footer font-small stylish-color-dark pt-4">
+
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left">
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 mx-auto">
+
+                            <!-- Content -->
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" data-tag="footer-title"></h5>
+                            <p data-tag="footer-text" class="text-justify"></p>
+                            <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                      <li class="breadcrumb-item"><a href="./index.html" data-tag="title"></a></li>
+                                      <li class="breadcrumb-item active"><a href="./index.html" data-tag="menu-1"></a></li>
+                                    </ol>
+                                  </nav>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="clearfix w-100 d-md-none">
+
+                        <!-- Grid column -->
+                        <div class="col-md-5 mx-auto">
+
+                            <a class="twitter-timeline" data-width="100%" data-height="250px" data-theme="dark"
+                                data-link-color="#2e745a" href="https://twitter.com/getbootstrap?lang=en">Bootstrap
+                                4</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Links -->
+
+                <hr>
+
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/getbootstrap/"
+                            target="_blank">
+                            <i class="fab fa-facebook-f ffa"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1" href="https://twitter.com/getbootstrap?lang=en"
+                            target="_blank">
+                            <i class="fab fa-twitter ffa"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-gplus mx-1"
+                            href="https://plus.google.com/communities/100652502095383796575" target="_blank">
+                            <i class="fab fa-google-plus-g ffa"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-li mx-1"
+                            href="https://www.instagram.com/explore/tags/bootstrap/?hl=en" target="_blank">
+                            <i class="fab fa-instagram ffa"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <hr>
+
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3" data-tag="copyright-text"></div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+        </section>
+
+    </div>
+    <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                    event.preventDefault();
+                    $(this).ekkoLightbox({
+                    });
+                });
+            </script>
 </body>
+
 </html>

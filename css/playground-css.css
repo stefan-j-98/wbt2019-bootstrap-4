@@ -1,0 +1,65 @@
+.tryNow td{
+	border:2px solid #262429;
+    padding:10px 5px 5px 5px;
+}
+.tryNow{
+    width: 100%;
+    height: auto;
+    margin: 70px auto;
+    background-color: #262429;
+    color: white;
+}
+#output{
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#html, #css, #js{
+    background-color: #282c34;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    text-align: left;
+}
+.copyButton{
+    margin-top: 20px;
+}
+::selection{
+    color: gray;
+}
+.code-snippet{
+    margin-top: 40px;
+    text-align: left;
+    border-radius: 10px;
+}
+#title-bs4{
+    margin-top: 10px;
+}
+
+/* for block of numbers */
+.hljs-ln td.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: left;
+    color: #ccc;
+    border-right: 1px solid #CCC;
+    vertical-align: top;
+    padding-right: 10px;
+    z-index: 1;
+    /* your custom style here */
+}
+
+/* for block of code */
+.hljs-ln td.hljs-ln-code {
+    text-align: left;
+    z-index: 1;
+}
+.hljs-ln-line{
+    margin-left: 10px;
+}
